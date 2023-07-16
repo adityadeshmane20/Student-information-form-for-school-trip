@@ -1,0 +1,62 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+img
+{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+p
+{
+    font-size: 20px;
+}
+.heading
+{
+    max-width:100%;
+    padding: 35px;
+    margin: auto;
+}
+.heading h1,p
+{
+    text-align: center;
+}
+form
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+input
+{
+    font-size: 15px;
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+.btn
+{
+    padding: 8px;
+    margin: 10px auto;
+    color: white;
+    background-color: rgb(42, 42, 254);
+    border: 1px rgb(42, 42, 254);
+    border-radius: 5px;
+}
+.submitmsg
+{
+    color: green;
+    font-size: 20px;
+}
+.notsubmitmsg
+{
+    color: red;
+    font-size: 20px;
+}
